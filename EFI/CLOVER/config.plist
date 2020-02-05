@@ -22,6 +22,8 @@
 			<key>Patches</key>
 			<array>
 				<dict>
+					<key>Comment</key>
+					<string>change _DSM to XDSM</string>
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
@@ -30,6 +32,8 @@
 					<data>WERTTQ==</data>
 				</dict>
 				<dict>
+					<key>Comment</key>
+					<string>change _OSI to XOSI</string>
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
@@ -38,6 +42,8 @@
 					<data>WE9TSQ==</data>
 				</dict>
 				<dict>
+					<key>Comment</key>
+					<string>change GFX0 to IGPU</string>
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
@@ -46,6 +52,8 @@
 					<data>SUdQVQ==</data>
 				</dict>
 				<dict>
+					<key>Comment</key>
+					<string>change HDAS to HDEF</string>
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
@@ -54,6 +62,8 @@
 					<data>SERFRg==</data>
 				</dict>
 				<dict>
+					<key>Comment</key>
+					<string>change HECI to IMEI</string>
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
@@ -86,6 +96,8 @@
 					<data>UFMyTQ==</data>
 				</dict>
 				<dict>
+					<key>Comment</key>
+					<string>change Method(GPRW,2,N) to XPRW, pair with SSDT-GPRW.aml</string>
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
