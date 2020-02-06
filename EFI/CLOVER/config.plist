@@ -415,6 +415,18 @@
 				<key>Replace</key>
 				<data>g/k/Dw==</data>
 			</dict>
+			<dict>
+				<key>Disabled</key>
+				<false/>
+				<key>Find</key>
+				<data>QVBQTEUgU1NEAA==</data>
+				<key>InfoPlistPatch</key>
+				<false/>
+				<key>Name</key>
+				<string>IOAHCIBlockStorage</string>
+				<key>Replace</key>
+				<data>AAAAAAAAAAAAAA==</data>
+			</dict>
 		</array>
 	</dict>
 	<key>RtVariables</key>
@@ -423,6 +435,10 @@
 		<string>0x28</string>
 		<key>CsrActiveConfig</key>
 		<string>0x67</string>
+		<key>MLB</key>
+		<string>C02904902J9HWVPFB</string>
+		<key>ROM</key>
+		<data>Nj9OZIjq</data>
 	</dict>
 	<key>SMBIOS</key>
 	<dict>
@@ -437,7 +453,7 @@
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>BoardSerialNumber</key>
-		<string>C02720902QXHWVPJC</string>
+		<string>C02904902J9HWVPFB</string>
 		<key>BoardType</key>
 		<integer>10</integer>
 		<key>BoardVersion</key>
@@ -467,14 +483,16 @@
 		<key>ProductName</key>
 		<string>MacBookPro14,1</string>
 		<key>SerialNumber</key>
-		<string>C02TQ4ZGHV29</string>
+		<string>C02Y5SY2HV29</string>
 		<key>SmUUID</key>
-		<string>53A74F13-1B62-4ED7-81F9-05E55EC3F2B3</string>
+		<string>8C13A9FA-4AC0-461F-B288-8983E96488EA</string>
 		<key>Version</key>
 		<string>1.0</string>
 	</dict>
 	<key>SystemParameters</key>
 	<dict>
+		<key>CustomUUID</key>
+		<string>8C13A9FA-4AC0-461F-B288-8983E96488EA</string>
 		<key>InjectKexts</key>
 		<string>Detect</string>
 	</dict>
