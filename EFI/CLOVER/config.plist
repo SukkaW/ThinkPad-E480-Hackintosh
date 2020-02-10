@@ -269,8 +269,10 @@
 		<string>dart=0 -lilubetaall -cdfon -igfxlspcon -igfxhdmidivs -hbfxbeta brcmfx-country=#a darkwake=10</string>
 		<key>DefaultVolume</key>
 		<string>macOS</string>
-		<key>NeverHibernate</key>
+		<key>HibernationFixup</key>
 		<true/>
+		<key>NeverHibernate</key>
+		<false/>
 		<key>NoEarlyProgress</key>
 		<true/>
 		<key>Secure</key>
