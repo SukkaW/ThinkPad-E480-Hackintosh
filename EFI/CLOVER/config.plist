@@ -233,6 +233,46 @@
 					<key>Replace</key>
 					<data>WEhDXw==</data>
 				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>_Q14 to XQ14(TP-up)</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>X1ExNA==</data>
+					<key>Replace</key>
+					<data>WFExNA==</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>_Q15 to XQ15(TP-down)</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>X1ExNQ==</data>
+					<key>Replace</key>
+					<data>WFExNQ==</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>_Q13 to XQ13(TP-FnF4)</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>X1ExMw==</data>
+					<key>Replace</key>
+					<data>WFExMw==</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>_Q2B to XQ2B(TP-LID)</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>X1EyQg==</data>
+					<key>Replace</key>
+					<data>WFEyQg==</data>
+				</dict>
 			</array>
 		</dict>
 		<key>DropTables</key>
