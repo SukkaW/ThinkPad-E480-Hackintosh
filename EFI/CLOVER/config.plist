@@ -16,6 +16,8 @@
 				<true/>
 				<key>FixRTC</key>
 				<true/>
+				<key>FixShutdown</key>
+				<true/>
 				<key>FixTMR</key>
 				<true/>
 			</dict>
@@ -197,7 +199,7 @@
 					<key>Comment</key>
 					<string>Rename EHC1 to EH01 (USB)</string>
 					<key>Disabled</key>
-					<false/>
+					<true/>
 					<key>Find</key>
 					<data>RUhDMQ==</data>
 					<key>Replace</key>
@@ -207,7 +209,7 @@
 					<key>Comment</key>
 					<string>Rename EHC2 to EH02 (USB)</string>
 					<key>Disabled</key>
-					<false/>
+					<true/>
 					<key>Find</key>
 					<data>RUhDMg==</data>
 					<key>Replace</key>
@@ -408,7 +410,7 @@
 		<key>Secure</key>
 		<false/>
 		<key>StrictHibernate</key>
-		<false/>
+		<true/>
 		<key>Timeout</key>
 		<integer>3</integer>
 	</dict>

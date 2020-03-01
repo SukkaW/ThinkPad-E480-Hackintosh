@@ -33,7 +33,7 @@
 			<key>IOProbeScore</key>
 			<integer>5000</integer>
 			<key>IOProviderClass</key>
-			<string>AppleUSBXHCIPCI</string>
+			<string>AppleUSBXHCISPTLP</string>
 			<key>IOProviderMergeProperties</key>
 			<dict>
 				<key>port-count</key>
@@ -45,7 +45,7 @@
 					<key>HS01</key>
 					<dict>
 						<key>UsbConnector</key>
-						<integer>3</integer>
+						<integer>0</integer>
 						<key>port</key>
 						<data>
 						AQAAAA==
@@ -63,7 +63,7 @@
 					<key>HS03</key>
 					<dict>
 						<key>UsbConnector</key>
-						<integer>3</integer>
+						<integer>0</integer>
 						<key>port</key>
 						<data>
 						AwAAAA==
@@ -90,7 +90,7 @@
 					<key>HS06</key>
 					<dict>
 						<key>UsbConnector</key>
-						<integer>3</integer>
+						<integer>255</integer>
 						<key>port</key>
 						<data>
 						BgAAAA==
