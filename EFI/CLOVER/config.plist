@@ -74,6 +74,8 @@
 					<data>SU1FSQ==</data>
 				</dict>
 				<dict>
+					<key>Comment</key>
+					<string>change SAT0 to SATA</string>
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
@@ -82,14 +84,18 @@
 					<data>U0FUQQ==</data>
 				</dict>
 				<dict>
+					<key>Comment</key>
+					<string>KBD renamed PS2K</string>
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>S0JEXw==</data>
+					<data>S0JDXw==</data>
 					<key>Replace</key>
 					<data>UFMySw==</data>
 				</dict>
 				<dict>
+					<key>Comment</key>
+					<string>change MOU to PS2M</string>
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
@@ -124,6 +130,8 @@
 					<data>bQoA</data>
 				</dict>
 				<dict>
+					<key>Comment</key>
+					<string>change Method(_PTS,1,N) to ZPTS, pair with SSDT-PTSWAK.aml</string>
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
@@ -132,6 +140,8 @@
 					<data>WlBUUwE=</data>
 				</dict>
 				<dict>
+					<key>Comment</key>
+					<string>change Method(_WAK,1,N) to ZWAK, pair with SSDT-PTSWAK.aml</string>
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
@@ -140,6 +150,8 @@
 					<data>WldBSwE=</data>
 				</dict>
 				<dict>
+					<key>Comment</key>
+					<string>change Method(_WAK,1,S) to ZWAK, pair with SSDT-PTSWAK.aml</string>
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
@@ -148,6 +160,8 @@
 					<data>WldBSwk=</data>
 				</dict>
 				<dict>
+					<key>Comment</key>
+					<string>Change Method(GBIF,3,N) to XBIF</string>
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
@@ -156,6 +170,8 @@
 					<data>WEJJRgM=</data>
 				</dict>
 				<dict>
+					<key>Comment</key>
+					<string>Change Method(GBST,4,N) to XBST</string>
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
@@ -164,6 +180,8 @@
 					<data>WEJTVAQ=</data>
 				</dict>
 				<dict>
+					<key>Comment</key>
+					<string>battery GBIX03 to XBIX03</string>
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
@@ -172,6 +190,8 @@
 					<data>WEJJWAM=</data>
 				</dict>
 				<dict>
+					<key>Comment</key>
+					<string>battery SBMN to BMNX 128</string>
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
@@ -180,6 +200,8 @@
 					<data>Qk1OWEA=</data>
 				</dict>
 				<dict>
+					<key>Comment</key>
+					<string>battery SBDN to BDNX 128</string>
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
@@ -344,16 +366,6 @@
 					<data>X1E2Mg==</data>
 					<key>Replace</key>
 					<data>WFE2Mg==</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>battery GBIF03 to XBIF03</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>R0JJRgM=</data>
-					<key>Replace</key>
-					<data>WEJJRgM=</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
