@@ -457,10 +457,10 @@
 				<string>Internal@0,2,0</string>
 				<key>device-id</key>
 				<data>FlkAAA==</data>
-				<key>disable-external-gpu</key>
-				<data>AQAAAA==</data>
 				<key>device_type</key>
 				<string>VGA compatible controller</string>
+				<key>disable-external-gpu</key>
+				<data>AQAAAA==</data>
 				<key>enable-hdmi-dividers-fix</key>
 				<data>AQAAAA==</data>
 				<key>enable-hdmi20</key>
@@ -602,8 +602,10 @@
 		<key>KextsToPatch</key>
 		<array>
 			<dict>
+				<key>Comment</key>
+				<string>USBPorts Limit for Catalina</string>
 				<key>Disabled</key>
-				<false/>
+				<true/>
 				<key>Find</key>
 				<data>g/sPDw==</data>
 				<key>InfoPlistPatch</key>
@@ -614,8 +616,10 @@
 				<data>g/s/Dw==</data>
 			</dict>
 			<dict>
+				<key>Comment</key>
+				<string>USBPorts Limit for Catalina</string>
 				<key>Disabled</key>
-				<false/>
+				<true/>
 				<key>Find</key>
 				<data>g/kPDw==</data>
 				<key>InfoPlistPatch</key>
@@ -626,6 +630,8 @@
 				<data>g/k/Dw==</data>
 			</dict>
 			<dict>
+				<key>Comment</key>
+				<string>Enable TRIM for SSD</string>
 				<key>Disabled</key>
 				<false/>
 				<key>Find</key>
