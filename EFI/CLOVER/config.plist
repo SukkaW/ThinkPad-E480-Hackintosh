@@ -299,6 +299,16 @@
 				</dict>
 				<dict>
 					<key>Comment</key>
+					<string>Change Method (_Q43 to XQ43)</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>X1E0Mw==</data>
+					<key>Replace</key>
+					<data>WFE0Mw==</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
 					<string>_Q6A to XQ6A(Microphone)</string>
 					<key>Disabled</key>
 					<false/>
@@ -366,6 +376,16 @@
 					<data>X1E2Mg==</data>
 					<key>Replace</key>
 					<data>WFE2Mg==</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>Change Method (_Q94 to XQ94)</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>X1E5NA==</data>
+					<key>Replace</key>
+					<data>WFE5NA==</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -457,8 +477,6 @@
 				<string>Internal@0,2,0</string>
 				<key>device-id</key>
 				<data>FlkAAA==</data>
-				<key>device_type</key>
-				<string>VGA compatible controller</string>
 				<key>disable-external-gpu</key>
 				<data>AQAAAA==</data>
 				<key>enable-hdmi-dividers-fix</key>
