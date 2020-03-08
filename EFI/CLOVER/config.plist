@@ -25,6 +25,16 @@
 			<array>
 				<dict>
 					<key>Comment</key>
+					<string>Name6D-03 to 00,pair with SSDT-GPRW.aml</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>Cm0KAw==</data>
+					<key>Replace</key>
+					<data>Cm0KAA==</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
 					<string>change _DSM to XDSM</string>
 					<key>Disabled</key>
 					<false/>
