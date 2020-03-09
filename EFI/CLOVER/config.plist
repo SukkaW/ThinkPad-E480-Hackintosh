@@ -185,36 +185,6 @@
 				</dict>
 				<dict>
 					<key>Comment</key>
-					<string>battery SBMN to BMNX 128</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>U0JNTkA=</data>
-					<key>Replace</key>
-					<data>Qk1OWEA=</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>battery SBDN to BDNX 128</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>U0JETkA=</data>
-					<key>Replace</key>
-					<data>QkROWEA=</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>Rename XHCI to XHC (USB)</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>WEhDSQ==</data>
-					<key>Replace</key>
-					<data>WEhDXw==</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
 					<string>_Q13 to XQ13(FN+4)</string>
 					<key>Disabled</key>
 					<false/>
