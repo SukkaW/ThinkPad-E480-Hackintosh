@@ -9,17 +9,17 @@
 			<key>Fixes</key>
 			<dict>
 				<key>AddPNLF</key>
-				<true/>
+				<false/>
 				<key>FixHPET</key>
-				<true/>
+				<false/>
 				<key>FixIPIC</key>
-				<true/>
+				<false/>
 				<key>FixRTC</key>
-				<true/>
+				<false/>
 				<key>FixShutdown</key>
 				<true/>
 				<key>FixTMR</key>
-				<true/>
+				<false/>
 			</dict>
 			<key>Patches</key>
 			<array>
@@ -87,31 +87,11 @@
 					<key>Comment</key>
 					<string>change SAT0 to SATA</string>
 					<key>Disabled</key>
-					<false/>
+					<true/>
 					<key>Find</key>
 					<data>U0FUMA==</data>
 					<key>Replace</key>
 					<data>U0FUQQ==</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>KBD renamed PS2K</string>
-					<key>Disabled</key>
-					<true/>
-					<key>Find</key>
-					<data>S0JDXw==</data>
-					<key>Replace</key>
-					<data>UFMySw==</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>change MOU to PS2M</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>TU9VXw==</data>
-					<key>Replace</key>
-					<data>UFMyTQ==</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -124,24 +104,8 @@
 					<data>WFBSVwI=</data>
 				</dict>
 				<dict>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>bQoE</data>
-					<key>Replace</key>
-					<data>bQoA</data>
-				</dict>
-				<dict>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>bQoD</data>
-					<key>Replace</key>
-					<data>bQoA</data>
-				</dict>
-				<dict>
 					<key>Comment</key>
-					<string>change Method(_PTS,1,N) to ZPTS, pair with SSDT-PTSWAK.aml</string>
+					<string>_PTS to ZPTS(1,N), pair with SSDT-PTSWAK.aml</string>
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
@@ -151,7 +115,17 @@
 				</dict>
 				<dict>
 					<key>Comment</key>
-					<string>change Method(_WAK,1,N) to ZWAK, pair with SSDT-PTSWAK.aml</string>
+					<string>_PTS to ZPTS(1,S), pair with SSDT-PTSWAK.aml</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>X1BUUwk=</data>
+					<key>Replace</key>
+					<data>WlBUUwk=</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>_WAK to ZWAK(1,N), pair with SSDT-PTSWAK.aml</string>
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
@@ -161,7 +135,7 @@
 				</dict>
 				<dict>
 					<key>Comment</key>
-					<string>change Method(_WAK,1,S) to ZWAK, pair with SSDT-PTSWAK.aml</string>
+					<string>_WAK to ZWAK(1,S), pair with SSDT-PTSWAK.aml</string>
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
@@ -171,7 +145,7 @@
 				</dict>
 				<dict>
 					<key>Comment</key>
-					<string>Change Method(GBIF,3,N) to XBIF</string>
+					<string>battery Change Method(GBIF,3,N) to XBIF</string>
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
@@ -181,7 +155,7 @@
 				</dict>
 				<dict>
 					<key>Comment</key>
-					<string>Change Method(GBST,4,N) to XBST</string>
+					<string>battery Change Method(GBST,4,N) to XBST</string>
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
@@ -198,6 +172,16 @@
 					<data>R0JJWAM=</data>
 					<key>Replace</key>
 					<data>WEJJWAM=</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>battery AJTP03 to XJTP03</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>QUpUUAM=</data>
+					<key>Replace</key>
+					<data>WEpUUAM=</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -220,6 +204,8 @@
 					<data>QkROWEA=</data>
 				</dict>
 				<dict>
+					<key>Comment</key>
+					<string>battery _L43 to XL17</string>
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
@@ -229,41 +215,11 @@
 				</dict>
 				<dict>
 					<key>Comment</key>
-					<string>Rename EHC1 to EH01 (USB)</string>
-					<key>Disabled</key>
-					<true/>
-					<key>Find</key>
-					<data>RUhDMQ==</data>
-					<key>Replace</key>
-					<data>RUgwMQ==</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>Rename EHC2 to EH02 (USB)</string>
-					<key>Disabled</key>
-					<true/>
-					<key>Find</key>
-					<data>RUhDMg==</data>
-					<key>Replace</key>
-					<data>RUgwMg==</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
 					<string>Rename XHCI to XHC (USB)</string>
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
 					<data>WEhDSQ==</data>
-					<key>Replace</key>
-					<data>WEhDXw==</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>Rename XHC1 to XHC (USB)</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>WEhDMQ==</data>
 					<key>Replace</key>
 					<data>WEhDXw==</data>
 				</dict>
@@ -309,7 +265,7 @@
 				</dict>
 				<dict>
 					<key>Comment</key>
-					<string>Change Method (_Q43 to XQ43)</string>
+					<string>_Q43 to XQ43</string>
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
@@ -389,7 +345,7 @@
 				</dict>
 				<dict>
 					<key>Comment</key>
-					<string>Change Method (_Q94 to XQ94)</string>
+					<string>_Q94 to XQ94</string>
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
@@ -429,7 +385,7 @@
 				<key>PStates</key>
 				<false/>
 				<key>PluginType</key>
-				<true/>
+				<false/>
 			</dict>
 			<key>NoDynamicExtract</key>
 			<true/>
@@ -440,7 +396,7 @@
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>dart=0 -lilubetaall -cdfon -igfxlspcon -igfxhdmidivs -hbfxbeta brcmfx-country=#a darkwake=10</string>
+		<string>dart=0 -lilubetaall -cdfon -igfxlspcon -hbfxbeta brcmfx-country=#a darkwake=10</string>
 		<key>DefaultVolume</key>
 		<string>macOS</string>
 		<key>HibernationFixup</key>
@@ -452,7 +408,7 @@
 		<key>Secure</key>
 		<false/>
 		<key>StrictHibernate</key>
-		<true/>
+		<false/>
 		<key>Timeout</key>
 		<integer>3</integer>
 	</dict>
@@ -514,9 +470,9 @@
 			</dict>
 		</dict>
 		<key>SetIntelBacklight</key>
-		<true/>
+		<false/>
 		<key>SetIntelMaxBacklight</key>
-		<true/>
+		<false/>
 		<key>USB</key>
 		<dict>
 			<key>AddClockID</key>
