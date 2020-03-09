@@ -145,7 +145,7 @@
 				</dict>
 				<dict>
 					<key>Comment</key>
-					<string>battery Change Method(GBIF,3,N) to XBIF</string>
+					<string>TP-BAT:GBIF03 to XBIF03</string>
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
@@ -155,7 +155,7 @@
 				</dict>
 				<dict>
 					<key>Comment</key>
-					<string>battery Change Method(GBST,4,N) to XBST</string>
+					<string>TP-BAT:GBST04 to XBST04</string>
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
@@ -165,7 +165,7 @@
 				</dict>
 				<dict>
 					<key>Comment</key>
-					<string>battery GBIX03 to XBIX03</string>
+					<string>TP-BAT:GBIX03 to XBIX03</string>
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
@@ -175,7 +175,7 @@
 				</dict>
 				<dict>
 					<key>Comment</key>
-					<string>battery AJTP03 to XJTP03</string>
+					<string>TP-BAT:AJTP03 to XJTP03</string>
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
@@ -202,16 +202,6 @@
 					<data>U0JETkA=</data>
 					<key>Replace</key>
 					<data>QkROWEA=</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>battery _L43 to XL17</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>X0w0Mw==</data>
-					<key>Replace</key>
-					<data>WEwxNw==</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
