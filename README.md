@@ -6,6 +6,15 @@
 
 macOS Catalina on ThinkPad E480 (Hackintosh).
 
+Tested on:
+
+- 10.15.2
+- 10.15.3
+- 10.15.4 Public Beta 1
+- 10.15.4 Public Beta 2
+- 10.15.4 Public Beta 3
+- 10.15.4 Developer Beta 4
+
 ## Disclaimer
 
 Your warranty is now void. Please do some research if you have any concerns before replacing your EFI with mine. I am not responsible for any loss, including but not limited to Kernel Panic, device fail to boot or can not function normally, storage damage or data loss, atomic bombing, World War III, The CK-Class Restructuring Scenario that SCP Foundation can not prevent, and so on.
@@ -22,7 +31,7 @@ Your warranty is now void. Please do some research if you have any concerns befo
 | Integrated Graphics | Intel UHD Graphics 620 |
 | Discrete Graphics | Radeon (TM) RX 550 (2 GB) |
 | Ethernet | RTL8168/8111/8112 Gigabit Ethernet Controller |
-| Sound Card | Conexant CX20753/4 (layout-id: 3 or 15) |
+| Sound Card | Conexant CX20753/4 (layout-id: 15) |
 | Wireless Card | Manually change to BCM94352Z (DM1560) |
 
 ## What is working
@@ -37,47 +46,49 @@ The power display is functioning normally.
 
 #### Wi-Fi
 
-The OEM wireless model is `Realtek 8821CE Wireless LAN 802.11ac PCI-E NIC`. Suggest using BCM94352Z (DM1560).
+The OEM wireless model is `Realtek 8821CE Wireless LAN 802.11ac PCI-E NIC`. Suggest replacing it with BCM94352Z (DM1560).
 
-> BCM94350ZAE (DW1820A) might work with disabled pins.
+> BCM94350ZAE (DW1820A) might work with disabled pins. Not recommended.
 
 #### USB
 
-Functioning normally. Hackintools shows `5 Gbps` for USB 3.0 (Dev Speed).
+USB Ports Patching with HackinTool, `5 Gbps` for USB 3.0 (Dev Speed).
 
 #### Ethernet
 
 Functioning normally.
 
-#### Built-in display
+#### Display
 
-The model of Integrated Graphics is `Intel UHD Graphics 620`, faked to `Intel HD Graphics 620`. The Discrete Graphics' name is `Radeon (TM) RX 550 (2GB)`. Disabled because macOS doesn't support Optimus technology.
+The model of Integrated Graphics is `Intel UHD Graphics 620`, faked to `Intel HD Graphics 620`. VRAM has been set to 3072 MB.
+
+The Discrete Graphics' name is `Radeon (TM) RX 550 (2GB)`. Disabled because macOS doesn't support Optimus technology.
+
+The HDMI is attached with `Intel UHD Graphics 620` and is functioning normally. `2K@60Hz` & `4K@30Hz` are supported.
 
 #### Audio
 
-Driven by AppleALC. Everything is working normally.
+Driven by AppleALC with `layout-id: 15`. Everything is working normally.
 
 #### Keyboard
 
-Functioning normally except the <kbd>Insert</kbd> key. Keyboard backlight is working as well.
+Functioning normally except the <kbd>Insert</kbd> key, which is not presented on Magic Keyboard. Keyboard backlight is working properly as well.
 
 #### SSD
 
-Functioning normally and TRIM is supported.
+Both NVMe & SATA are functioning normally and TRIM is enabled for both of them.
 
 #### Bluetooth
 
 Functioning normally.
 
-#### Trackpad
+#### Trackpad & Trackpoint
 
-Functioning normally. Trackpoint and buttons are working properly as well.
-
-> Driven by [Modified VoodooPS2Controller by RehabMan](https://github.com/RehabMan/OS-X-Voodoo-PS2-Controller)
+Functioning normally. Trackpoint and UltraNavs are working properly as well.
 
 ## What is not working
 
-Brightness control from keyboard is not working. Install [Brightness Slider](https://apps.apple.com/us/app/brightness-slider/id456624497) from AppStore instead.
+<kbd>Fn</kbd> shortcut might stop working after wake from sleep. It is a common bug happened among ThinkPad E470, E480 E490, E570, E580, E590, etc.
 
 ## Recommended BIOS Config
 
@@ -89,26 +100,14 @@ Brightness control from keyboard is not working. Install [Brightness Slider](htt
   - Boot Mode: Both UEFI and Legacy
   - Boot Priority: UEFI First
   - Fast Boot: Disabled
-- Exit
-  - OS Optimized Defaults: Disabled
 
 ## Tips
 
 ### Hibernation
 
-Be aware that hibernation (suspend to disk or S4 sleep) is not supported with hackintosh. You should disable it with other hibernation related options:
+Hibernation is supported.
 
-```bash
-sudo pmset -a hibernatemode 0
-sudo pmset -a standby 0
-sudo pmset -a autopoweroff 0
-sudo rm /var/vm/sleepimage
-sudo mkdir /var/vm/sleepimage
-```
-
-Always check your hibernatemode after updates and disable it. System updates tend to re-enable it, although the trick above (making sleepimage a directory) tends to help.
-
-### Power Management
+### Audio Issue
 
 If you have faced some strange issue (like audio device is not found) after booting from Windows to macOS, you should reboot back to Windows and has a cold reboot (shutdown then start up) back to macOS. After that your audio device should be back.
 
