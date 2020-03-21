@@ -1599,33 +1599,18 @@
 		<true/>
 		<key>Generic</key>
 		<dict>
-			<key>AdviseWindows</key>
-			<true/>
 			<key>MLB</key>
-			<string>C02904902J9HWVPFB</string>
+			<string>FVF013701CD00001H</string>
 			<key>ROM</key>
 			<data>Nj9OZIjq</data>
 			<key>SpoofVendor</key>
 			<true/>
 			<key>SystemProductName</key>
-			<string>MacBookPro14,1</string>
+			<string>MacBookPro15,4</string>
 			<key>SystemSerialNumber</key>
-			<string>C02Y5SY2HV29</string>
+			<string>FVFCHFYAL40Y</string>
 			<key>SystemUUID</key>
-			<string>8C13A9FA-4AC0-461F-B288-8983E96488EA</string>
-		</dict>
-		<key>PlatformNVRAM</key>
-		<dict>
-			<key>BID</key>
-			<string>Mac-B4831CEBD52A0C4C</string>
-			<key>FirmwareFeatures</key>
-			<data>duEP/AAAAAA=</data>
-			<key>FirmwareFeaturesMask</key>
-			<data>f/8f/wAAAAA=</data>
-			<key>MLB</key>
-			<string>C02904902J9HWVPFB</string>
-			<key>ROM</key>
-			<data>Nj9OZIjq</data>
+			<string>645F518A-7F21-43FE-B8ED-6AEA1E8AB9F5</string>
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>
