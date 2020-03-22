@@ -148,7 +148,7 @@
 		<array>
 			<dict>
 				<key>Comment</key>
-				<string>Name6D-03 to 00,pair with SSDT-GPRW.aml</string>
+				<string>Name6D-03 to 00, pair with SSDT-GPRW.aml</string>
 				<key>Count</key>
 				<integer>0</integer>
 				<key>Enabled</key>
@@ -174,13 +174,13 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>change _DSM to XDSM</string>
+				<string>Name6D-04 to 00, pair with SSDT-GPRW.aml</string>
 				<key>Count</key>
 				<integer>0</integer>
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
-				<data>X0RTTQ==</data>
+				<data>Cm0KBA==</data>
 				<key>Limit</key>
 				<integer>0</integer>
 				<key>Mask</key>
@@ -188,7 +188,7 @@
 				<key>OemTableId</key>
 				<data></data>
 				<key>Replace</key>
-				<data>WERTTQ==</data>
+				<data>Cm0KAA==</data>
 				<key>ReplaceMask</key>
 				<data></data>
 				<key>Skip</key>
@@ -215,6 +215,32 @@
 				<data></data>
 				<key>Replace</key>
 				<data>WFBSVwI=</data>
+				<key>ReplaceMask</key>
+				<data></data>
+				<key>Skip</key>
+				<integer>0</integer>
+				<key>TableLength</key>
+				<integer>0</integer>
+				<key>TableSignature</key>
+				<data></data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>change _DSM to XDSM</string>
+				<key>Count</key>
+				<integer>0</integer>
+				<key>Enabled</key>
+				<true/>
+				<key>Find</key>
+				<data>X0RTTQ==</data>
+				<key>Limit</key>
+				<integer>0</integer>
+				<key>Mask</key>
+				<data></data>
+				<key>OemTableId</key>
+				<data></data>
+				<key>Replace</key>
+				<data>WERTTQ==</data>
 				<key>ReplaceMask</key>
 				<data></data>
 				<key>Skip</key>
