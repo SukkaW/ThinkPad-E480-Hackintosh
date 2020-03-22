@@ -38,6 +38,14 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
+				<string>SSDT-015-PTSWAK.aml</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
 				<string>SSDT-020-DMAC.aml</string>
 			</dict>
 			<dict>
@@ -90,14 +98,6 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string></string>
-				<key>Enabled</key>
-				<true/>
-				<key>Path</key>
-				<string>SSDT-050-PTSWAK.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
 				<string>Reset LED for ThinkPad</string>
 				<key>Enabled</key>
 				<true/>
@@ -111,6 +111,14 @@
 				<true/>
 				<key>Path</key>
 				<string>SSDT-052-EXT4-WakeScreen.aml</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>SSDT-053-EXT5-FnSticky.aml</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
