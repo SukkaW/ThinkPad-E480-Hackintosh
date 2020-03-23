@@ -114,14 +114,6 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string></string>
-				<key>Enabled</key>
-				<true/>
-				<key>Path</key>
-				<string>SSDT-053-EXT5-FnSticky.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
 				<string>Plugin Type</string>
 				<key>Enabled</key>
 				<true/>
