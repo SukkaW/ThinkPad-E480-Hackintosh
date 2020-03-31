@@ -118,7 +118,7 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
-				<string>SSDT-056-EC-USBX.aml</string>
+				<string>SSDT-056-USBX.aml</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
