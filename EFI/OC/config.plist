@@ -18,19 +18,19 @@
 		<array>
 			<dict>
 				<key>Comment</key>
-				<string>RMCF</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Path</key>
-				<string>SSDT-010-RMCF.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
 				<string>Sound IRQ Fix</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
 				<string>SSDT-011-HPET_RTC_TIMR-fix.aml</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>SSDT-012-DDGPU.aml</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -71,14 +71,6 @@
 				<true/>
 				<key>Path</key>
 				<string>SSDT-023-ALS0.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>Disable External GPU</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Path</key>
-				<string>SSDT-030-DDGPU.aml</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
