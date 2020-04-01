@@ -18,11 +18,11 @@
 		<array>
 			<dict>
 				<key>Comment</key>
-				<string>Sound IRQ Fix</string>
+				<string></string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
-				<string>SSDT-011-HPET_RTC_TIMR-fix.aml</string>
+				<string>SSDT-010-Fix_HPET_RTC_TIMR.aml</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -30,7 +30,7 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
-				<string>SSDT-012-DDGPU.aml</string>
+				<string>SSDT-011-DDGPU.aml</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -38,7 +38,7 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
-				<string>SSDT-015-PTSWAK.aml</string>
+				<string>SSDT-012-PLUG.aml</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -46,7 +46,7 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
-				<string>SSDT-020-DMAC.aml</string>
+				<string>SSDT-013-USBX.aml</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -54,7 +54,7 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
-				<string>SSDT-021-MCHC.aml</string>
+				<string>SSDT-020-PTSWAK.aml</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -62,7 +62,7 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
-				<string>SSDT-022-PMCR.aml</string>
+				<string>SSDT-021-PTSWAK-EXT3-LedReset-TP.aml</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -70,19 +70,43 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
-				<string>SSDT-023-ALS0.aml</string>
+				<string>SSDT-022-PTSWAK-EXT4-WakeScreen.aml</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>ThinkPad Battery</string>
+				<string></string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
-				<string>SSDT-031-OCBAT0-TP_E480_E580.aml</string>
+				<string>SSDT-030-DMAC.aml</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>6D:0D Wake Patch</string>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>SSDT-031-MCHC.aml</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>SSDT-032-PMCR.aml</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>SSDT-033-ALS0.aml</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string></string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
@@ -90,27 +114,11 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>Reset LED for ThinkPad</string>
+				<string></string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
-				<string>SSDT-051-EXT3-LedReset-TP.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>LID Wake Screen for ThinkPad</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Path</key>
-				<string>SSDT-052-EXT4-WakeScreen.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>Plugin Type</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Path</key>
-				<string>SSDT-055-PLUG.aml</string>
+				<string>SSDT-050-BATT-TP_Ex80-L43+OWAK.aml</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -118,15 +126,7 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
-				<string>SSDT-056-USBX.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>PNLF for Skylake/KabyLake</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Path</key>
-				<string>SSDT-070-PNLF-SKL_KBL.aml</string>
+				<string>SSDT-060-PNLF-SKL_KBL.aml</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -134,7 +134,7 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
-				<string>SSDT-080-SBUS.aml</string>
+				<string>SSDT-070-SBUS.aml</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -142,7 +142,7 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
-				<string>SSDT-100-ThinkPad_Clickpad_Trackpoint_Keyboard.aml</string>
+				<string>SSDT-080-ThinkPad_Clickpad+Trackpoint+Keyboard+Q13.aml</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -150,7 +150,7 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
-				<string>SSDT-110-LIDpatch.aml</string>
+				<string>SSDT-090-LIDpatch.aml</string>
 			</dict>
 		</array>
 		<key>Block</key>
