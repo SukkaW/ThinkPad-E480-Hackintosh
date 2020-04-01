@@ -62,7 +62,7 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
-				<string>SSDT-021-PTSWAK-EXT3-LedReset-TP.aml</string>
+				<string>SSDT-021-EXT1-FixShutdown.aml</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -70,7 +70,15 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
-				<string>SSDT-022-PTSWAK-EXT4-WakeScreen.aml</string>
+				<string>SSDT-022-PTSWAK-EXT3-LedReset-TP.aml</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>SSDT-023-PTSWAK-EXT4-WakeScreen.aml</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
