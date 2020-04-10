@@ -1669,17 +1669,17 @@
 		<key>Generic</key>
 		<dict>
 			<key>MLB</key>
-			<string>FVF013701CD00001H</string>
+			<string>FVF013701CD11451H</string>
 			<key>ROM</key>
-			<data>Nj9OZIjq</data>
+			<data>Nj99ZIjq</data>
 			<key>SpoofVendor</key>
 			<true/>
 			<key>SystemProductName</key>
 			<string>MacBookPro15,4</string>
 			<key>SystemSerialNumber</key>
-			<string>FVFCHFYAL40Y</string>
+			<string>FVFCH123L40Y</string>
 			<key>SystemUUID</key>
-			<string>645F518A-7F21-43FE-B8ED-6AEA1E8AB9F5</string>
+			<string>66e6af80-84e5-4425-8b7b-e55fd0816880</string>
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>
