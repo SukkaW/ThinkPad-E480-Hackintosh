@@ -15,6 +15,8 @@ Tested on:
 - 10.15.4 Public Beta 3
 - 10.15.4 Developer Beta 4
 - 10.15.4
+- 10.15.7
+- 11.0.1
 
 ## Disclaimer
 
@@ -30,7 +32,7 @@ Your warranty is now void. Please do some research if you have any concerns befo
 | NVMe SSD | Manually change to Lenovo SL700 M.2 512 GiB |
 | SATA SSD | Manually change to Toshiba TR200 SATA 480 GiB |
 | Integrated Graphics | Intel UHD Graphics 620 |
-| Discrete Graphics | Radeon (TM) RX 550 (2 GiB) (Disabled using SSDT) |
+| Discrete Graphics | Radeon (TM) RX 550 (2 GiB) (Disabled using WhateverGreen) |
 | Ethernet | RTL8168/8111/8112 Gigabit Ethernet Controller |
 | Sound Card | Conexant CX20753/4 (layout-id: 15) |
 | Wireless Card | Manually change to BCM94352Z (DM1560) |
@@ -61,7 +63,7 @@ Camera is functioning normally.
 
 #### USB
 
-USB Ports Patching using HackinTool, `5 GiBps` for USB 3.0 and Type-C (Dev Speed).
+USB Ports Patching using HackinTool generated `USBPorts.kext`, `5 GiBps` for USB 3.0 and Type-C (Dev Speed).
 
 #### Ethernet
 
@@ -95,12 +97,22 @@ Functioning normally. Trackpoint (which is my favorite) and UltraNavs are workin
 
 ## What is not working
 
-EC Query will stop sending after S3 Sleep (S2 Sleep is not affected), which is a common bug happened among ThinkPad E470, E480 E490, E570, E580, E590, R480, R580, etc. That means:
+EC device will stop sending after S3 Sleep (S2 Sleep is not affected), which is a common bug happened among ThinkPad E470, E480 E490, E570, E580, E590, R480, R580, etc. That means:
 
 - <kbd>Fn</kbd> shortcut will stop working after wake from S3 sleep.
 - Close Lid to sleep will stop working as well (Lid is related with EC Query `_Q2B`)
 - Battery status won't update after S3 sleep.
   - That's mean after waking from S3 sleep, the battery icon won't change when you plug/unplug the AC.
+
+## Special Notice
+
+### SMBIOS
+
+The EFI contains no SMBIOS info. You should create your own SMBIOS (`MacBookPro15,4`) and insert it into the `config.plist`. `macserial` (a tool provided by OpenCorePkg) is recommended.
+
+### Chime & OpenCanopy
+
+The EFI already has OpenCanopy (OpenCore built-in GUI boot picker) & Chime enabled.
 
 ## Recommended BIOS Config
 
@@ -117,11 +129,11 @@ EC Query will stop sending after S3 Sleep (S2 Sleep is not affected), which is a
 
 ### Hibernation
 
-Hibernation is supported (Tested with `hivernationmode 25`).
+Hibernation might be supported (Tested with `hivernationmode 25`).
 
 ### Audio Issue
 
-If you have faced some strange issue (like audio device is not found) after booting from Windows to macOS, you should reboot back to Windows and has a cold reboot (shutdown then start up) back to macOS. After that your audio device should be back.
+If you have faced some strange issue (like audio device is not found) after booting from Windows to macOS, you should reboot back to Windows, and has a cold reboot (shutdown then start up) back to macOS. Your audio device should be back.
 
 ### Windows Time Fix
 
